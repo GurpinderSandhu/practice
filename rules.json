@@ -21,6 +21,12 @@
 					"versions": {
 						"start": "20.23.6.0"
 					}
+				},
+				{
+					"variation": true,
+					"versions": {
+						"start": "20.25.8.0"
+					}
 				}
 			]
 		},
