@@ -12,7 +12,7 @@
 	"environments": {
 		"production": {
 			"defaultVariation": "false",
-      "rules": [
+			"rules": [
 				{
 					"variation": "true",
 					"instanceTypes": [
@@ -20,15 +20,6 @@
 					],
 					"versions": {
 						"start": "20.23.6.0"
-					}
-				},
-				{
-					"variation": "true",
-					"instanceTypes": [
-						"prod"
-					],
-					"versions": {
-						"start": "20.23.12.0"
 					}
 				}
 			]
