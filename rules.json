@@ -1,0 +1,54 @@
+{
+	"name": "PHNX-1554 Enable Refactored Completion Summary",
+	"description": "Enables the refactored completion summary for activity display in Lessons.",
+	"team": "phoenix",
+	"ticket": {
+		"jira": "PHNX-1554"
+	},
+	"versions": {
+		"added": "20.24.9",
+		"removalTarget": "20.25.1"
+	},
+	"environments": {
+		"production": {
+			"defaultVariation": "false",
+      "rules": [
+				{
+					"variation": "true",
+					"instanceTypes": [
+						"test"
+					],
+					"versions": {
+						"start": "20.23.6.0"
+					}
+				},
+				{
+					"variation": "true",
+					"instanceTypes": [
+						"prod"
+					],
+					"versions": {
+						"start": "20.23.12.0"
+					}
+				}
+			]
+		},
+		"development": {
+			"defaultVariation": "false",
+			"targets": [
+				{
+					"variation": "true",
+					"tenantIds": [
+						"a2af04d9-efa3-4391-b618-09b924f636c6",
+						"2ed5301b-49f7-4269-a14f-6a840a57bce5"
+					]
+				}
+			]
+		}
+	},
+	"tags": [
+		"phoenix",
+		"lessons",
+		"uce"
+	]
+}
