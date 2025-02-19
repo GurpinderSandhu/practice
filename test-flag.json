@@ -11,7 +11,7 @@
 	},
 	"environments": {
 		"production": {
-			"defaultVariation": "false"
+			"defaultVariation": "true"
 		},
 		"development": {
 			"defaultVariation": "false",
