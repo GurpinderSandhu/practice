@@ -11,7 +11,13 @@
 	},
 	"environments": {
 		"production": {
-			"defaultVariation": "false"
+			"defaultVariation": "false",
+			"rules": {
+				"variation": true,
+				"versions": {
+					"start": "20.25.8.0"
+				}
+			}
 		},
 		"development": {
 			"defaultVariation": "false",
